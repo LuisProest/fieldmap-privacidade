@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FieldMap — Política de Privacidade</title>
+<meta name="description" content="Política de privacidade do FieldMap, o aplicativo de coleta de amostras de campo da Proest Tecnologias Integradas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!-- Copia publica da politica do app (web/privacidade.html), no visual do
+     site da Proest. Publicada como index.html em
+     luisproest.github.io/fieldmap-privacidade; serve igual em
+     www.proest.com.br/fieldmap/privacidade.html (enderecos absolutos).
+     Do titulo (h1) ao fim do main, o texto tem de ser igual ao do app: o
+     web/test_loja.js confere. -->
+<style>
+  :root{--laranja:#fa8507;--laranja-esc:#c96a00;--preto:#161616;--grafite:#262626;
+    --cinza:#6b6b6b;--papel:#fcfbf9;--linha:#e8e5df}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Inter',sans-serif;background:var(--papel);color:var(--grafite);
+    line-height:1.65;font-size:16.5px}
+  .barra{max-width:760px;margin:0 auto;padding:0 20px}
+  header{border-bottom:1px solid var(--linha)}
+  header .barra{height:68px;display:flex;align-items:center}
+  header img{height:34px;display:block}
+  main{max-width:760px;margin:0 auto;padding:44px 20px 64px}
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--laranja-esc);margin-bottom:10px}
+  h1,h2{font-family:'Archivo',sans-serif;font-weight:800;color:var(--preto);line-height:1.15}
+  h1{font-size:clamp(28px,5vw,38px);letter-spacing:-.01em}
+  h2{font-size:20px;margin:34px 0 12px;padding-bottom:10px;position:relative}
+  h2::after{content:"";position:absolute;left:0;bottom:0;width:40px;height:3px;
+    background:var(--laranja);border-radius:2px}
+  p,ul{margin:0 0 12px}
+  ul{padding-left:22px}
+  li{margin-bottom:6px}
+  .data{color:var(--cinza);font-size:14px;margin:8px 0 26px}
+  a{color:var(--laranja-esc)}
+  footer{border-top:1px solid var(--linha);color:var(--cinza);font-size:14px}
+  footer .barra{padding-top:22px;padding-bottom:28px}
+</style>
+</head>
+<body>
+<header><div class="barra"><a href="https://www.proest.com.br/" aria-label="Proest — início"><img src="https://www.proest.com.br/img/logo.png" alt="Proest Tecnologias Integradas"></a></div></header>
+<main>
+  <p class="eyebrow">FieldMap · aplicativo de campo</p>
+  <h1>Política de Privacidade do FieldMap</h1>
+  <p class="data">Última atualização: 30 de setembro de 2026</p>
+
+  <p>O FieldMap é o aplicativo de coleta de amostras de campo (solo, foliar,
+  nematoides e compactação) usado pela equipe da <strong>Proest Tecnologias
+  Integradas Ltda.</strong> (“Proest”) nos talhões de seus clientes. Esta
+  política explica quais dados o aplicativo trata, para quê, com quem e por
+  quanto tempo.</p>
+
+  <h2>1. Quais dados o aplicativo trata</h2>
+  <ul>
+    <li><strong>Nome do coletor</strong>, digitado no próprio aplicativo, para
+      identificar quem fez cada coleta.</li>
+    <li><strong>Identificação do trabalho</strong>: cliente, fazenda, talhão,
+      ano da safra, tipo de coleta e análises pedidas ao laboratório.</li>
+    <li><strong>Localização (GPS)</strong>: a posição planejada e a posição
+      efetiva de cada ponto coletado, a precisão do GPS e a data e hora da
+      coleta; o perímetro do talhão e divisões desenhadas no mapa.</li>
+    <li><strong>Dados da amostra</strong>: profundidades, número de
+      subamostras, leituras de compactação, umidade, etiquetas, impedimentos
+      e observações.</li>
+  </ul>
+  <p>A localização só é usada <strong>enquanto o aplicativo está aberto</strong>
+  e com a sua autorização, para mostrar sua posição no mapa e registrar onde
+  cada amostra foi retirada. O trajeto percorrido fica apenas no aparelho,
+  para orientar o coletor, e não é enviado.</p>
+
+  <h2>2. Para que os dados são usados</h2>
+  <p>Exclusivamente para a prestação do serviço agronômico contratado pelo
+  produtor: ligar cada amostra ao seu ponto no talhão, enviá-la ao laboratório
+  com a identificação correta e, com os resultados, elaborar mapas e
+  recomendações de adubação e correção do solo.</p>
+  <p>Não há publicidade, rastreamento para fins de marketing nem venda de
+  dados. O aplicativo não usa ferramentas de análise de uso de terceiros.</p>
+
+  <h2>3. Onde os dados ficam e com quem são compartilhados</h2>
+  <ul>
+    <li>Os trabalhos ficam guardados <strong>no próprio aparelho</strong>.
+      Quando há internet, cada coleta concluída é enviada ao servidor em
+      nuvem contratado pela Proest (Supabase, com servidores no Brasil), de
+      onde o sistema da Proest a recebe.</li>
+    <li>O <strong>mapa de fundo</strong> (imagem de satélite) é do
+      <strong>Google Maps</strong>. Para mostrá-lo, o Google recebe a região
+      exibida no mapa e o endereço de internet (IP) do aparelho, como em
+      qualquer mapa na internet — não recebe o nome do coletor nem os dados
+      das coletas.</li>
+    <li>Os dados não são compartilhados com terceiros para outras finalidades.
+      O laboratório recebe somente o que é necessário para identificar e
+      analisar as amostras.</li>
+  </ul>
+
+  <h2>4. Mapa do Google</h2>
+  <p>O FieldMap usa recursos e conteúdo do Google Maps. O uso desses recursos
+  e conteúdos está sujeito às versões em vigor dos
+  <a href="https://maps.google.com/help/terms_maps/">Termos de Serviço Adicionais
+  do Google Maps/Google Earth</a> e da
+  <a href="https://policies.google.com/privacy">Política de Privacidade do
+  Google</a>.</p>
+
+  <h2>5. Por quanto tempo</h2>
+  <p>As coletas fazem parte do histórico agronômico do talhão e são mantidas
+  enquanto durar a relação com o produtor e pelo tempo necessário para
+  acompanhar a evolução da área e cumprir obrigações legais. No aparelho, o
+  próprio coletor pode excluir os trabalhos a qualquer momento.</p>
+
+  <h2>6. Seus direitos</h2>
+  <p>Nos termos da Lei Geral de Proteção de Dados (Lei nº 13.709/2018), você
+  pode pedir confirmação de tratamento, acesso, correção, anonimização ou
+  exclusão dos seus dados pessoais, e revogar o consentimento. Para isso,
+  entre em contato com a Proest pelos canais indicados em
+  <a href="https://www.proest.com.br">www.proest.com.br</a>.</p>
+
+  <h2>7. Crianças</h2>
+  <p>O aplicativo é uma ferramenta de trabalho de campo e não se destina a
+  menores de idade.</p>
+
+  <h2>8. Alterações</h2>
+  <p>Esta política pode ser atualizada. A data da versão em vigor fica no
+  topo desta página.</p>
+</main>
+<footer><div class="barra">Proest Tecnologias Integradas Ltda. —
+  <a href="https://www.proest.com.br">www.proest.com.br</a></div></footer>
+</body>
+</html>
